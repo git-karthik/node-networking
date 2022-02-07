@@ -1,0 +1,27 @@
+{
+  "name": "node-networking",
+  "version": "1.0.0",
+  "description": "Networking with Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-server": "node . server",
+    "start-client": "node . client",
+    "start-server-debug": "node . server --inspect-brk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/git-karthik/node-networking.git"
+  },
+  "keywords": [
+    "Sockets",
+    "Duplex",
+    "Javascript"
+  ],
+  "author": "Karthikeyan R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/git-karthik/node-networking/issues"
+  },
+  "homepage": "https://github.com/git-karthik/node-networking#readme"
+}
